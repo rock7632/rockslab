@@ -2,7 +2,7 @@
 services:
   code-server:
     image: lscr.io/linuxserver/code-server:latest
-    container_name: code-server
+    container_name: test
     environment:
       - PUID=1000
       - PGID=1000
